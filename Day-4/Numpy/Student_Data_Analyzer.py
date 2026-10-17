@@ -12,7 +12,7 @@ Stud_marks = np.array( [
 
 print("Dataset:\n", Stud_marks)
 
-total_marks = np.sum(Stud_marks, axis=1)
+total_marks = np.sum(Stud_marks, axis=1) 
 print("\nTotal marks per student:", total_marks)
 
 total_avg = np.average(Stud_marks, axis=1)
